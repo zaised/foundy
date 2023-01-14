@@ -1,0 +1,702 @@
+.pf2e-bb {
+
+
+  /*Deity Section*/
+  section.gallery-container {
+    display: flex;
+    flex-direction: column;
+    border: 2px solid var(--bb-green);
+    background: var(--bb-green-light);
+    border-radius: 10px;
+    div.item-gallery {
+      display: flex;
+      flex-direction: row;
+      border-bottom: 2px solid var(--bb-green);
+      padding: 10px;
+      :last-of-type {
+        border-bottom:unset;
+      }
+    }
+    div.item-text {
+      flex-direction:column;
+      flex-basis: 90%;
+    }
+
+  }
+  /*Code blocks*/
+  code {
+    justify-content: center;
+    border: 2px solid var(--bb-green);
+    border-radius: 10px;
+    background: rgba(75,125,0,.15);
+    padding: 5px;
+  }
+  /*General Dropshadow*/
+  .shadow {
+    filter: drop-shadow(-5px -5px 5px rgba(0,0,0,.40));
+  }
+  /*Images and Image Variants*/
+  figure {
+    margin: 20px 20px 25px 20px;
+    &.head {
+      margin: 10px 20px 25px 20px;
+    }
+    &.box {
+      border: 2px solid var(--bb-green);
+      background: var(--bb-green-light);
+      border-radius: 10px;
+    }
+    &.right {
+      float: right;
+      margin: 0.25rem 0 0.25rem .5rem;
+      figcaption  {
+        font-family: var(--main-font);
+        font-size: var(--body-font-size);
+        color:var(--bb-green)
+      }
+
+    }
+    &.flipx {
+      transform: scaleX(-1);
+    }
+    &.left {
+      float: left;
+      margin: 0.25rem .5rem 0.25rem 0;
+      figcaption  {
+        color:var(--bb-green)
+      }
+      &.square {
+        flex-basis: 150px;
+      }
+    }
+  }
+  img {
+    //The light writer is a cutting edge invention, first created in Absalom in late 4721...
+    &.light-writer {
+      border-radius: 25px;
+      filter: opacity(0.8) sepia(.9);
+      transition: 0.5s;
+    }
+    &.light-writer:hover {
+      border-radius: 25px;
+      filter: opacity(0.8) sepia(0);
+    }
+  }
+  /* Tables */
+  table {
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    border: unset;
+    font-size: .95rem;
+
+    td, th {
+      padding-left: 0.5rem;
+      padding-right: 0.5rem;
+    }
+
+    //Paizo Red Table Header
+    th {
+      text-align: left;
+      font-family: 'Good OT Bold', serif;
+      background: var(--pf2e-red);
+      color: var(--bb-white);
+    }
+
+    //Handle alternating colors to match Paizo styling
+    tr {
+      background: var(--bb-table);
+    }
+
+    tr:nth-child(even) {
+      background: var(--bb-table-light);
+    }
+  }
+
+  /* Lists */
+  ul {
+    font-family: var(--main-font);
+    font-size: var(--body-font-size);
+  }
+  dl {
+    font-family: var(--box-font);
+    font-size: var(--box-font-size);
+}
+  /* Content Toolkit text blocks */
+  .box-text {
+    display: flex;
+    border: 2px solid black;
+    margin: 0.5rem;
+    margin: 1rem 2%;
+    &.right {
+      float: right;
+      margin: 0.25rem 0 0.25rem .25rem;
+    }
+
+    &.left {
+      float: left;
+      margin: 0.25rem 0.25rem 0.25rem 0rem;
+    }
+
+    > .box-border {
+      min-height: 300px;
+      background: url(./assets/sidebar-top.webp), url(./assets/sidebar-bottom.webp);
+      background-repeat: no-repeat, no-repeat;
+      background-position: right top, bottom left;
+      background-size: 97% 210px, 97% 210px;
+      padding: 2.5rem;
+
+      > .box-content {
+        min-height: 220px;
+        margin: 0.5rem 0.15rem 1rem;
+
+        h2 {
+          font-family: var(--h2-sidebar);
+          font-size: var(--h2-sidebar-font-size);
+        }
+
+        > h1, h2, h3 {
+          color: var(--bb-white);
+          margin-top: 0;
+        }
+      }
+    }
+
+    ::-webkit-scrollbar-thumb {
+      background: var(--bb-gold-dark);
+      border: 1px solid var(--bb-gold);
+    }
+
+    &.narrative {
+      display: block;
+      background: rgba(255,255,255,.8);
+      box-shadow: 0 5px 13px -7px var(--color-shadow-dark);
+      font-size: 1.10rem;
+      font-family: var(--narrative-font);
+      border-top: 2px ridge var(--bb-green);
+      border-bottom: 2px ridge var(--bb-green);
+      border-left: none;
+      border-right: none;
+      color: var(--bb-green);
+      padding: 5px 10px 5px 5px;
+      &.half {
+        width: 50%;
+      }
+      &.first {
+        margin-top:0px
+      }
+    }
+
+    &.location {
+      font-family: var(--main-font);
+      flex-direction: column;
+
+      .flexrow {
+        display: flex;
+        justify-content: space-between;
+
+        :nth-child(even) {
+          text-align: right;
+        }
+
+        &.head {
+          border-bottom: 1px solid;
+        }
+      }
+
+      ul {
+        margin: unset;
+        padding: unset;
+
+        &.traits {
+          list-style-type: none;
+          display: flex;
+          gap: 5px;
+          margin-top: 5px;
+
+          li {
+            border-left: 5px solid var(--bb-gold);
+            border-right: 5px solid var(--bb-gold);
+            background: var(--pf2e-red);
+            color: white;
+            padding: 6px 8px 2px 8px;
+            text-transform: uppercase;
+            font-family: 'Good OT Cond Bold';
+            max-height: 24px;
+          }
+        }
+
+        &.npcs {
+          padding: unset;
+          list-style-type: none;
+          font-size: var(--body-font-size);
+
+          li {
+            margin: 8px 0px 8px 0px;
+          }
+        }
+
+        &.features {
+          margin-left: 20px;
+          max-width: 100%;
+          font-size: var(--body-font-size);
+          list-style-type: none;
+
+          li {
+            margin-bottom: 5px;
+            max-width: 500px;
+            min-width: 200px;
+          }
+        }
+
+
+      }
+    }
+
+    .subflex {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+
+      ul {
+        flex-basis: 60%;
+      }
+
+      .p {
+        flex-basis: 30%
+      }
+    }
+
+    hr {
+      width: 100%;
+      margin: 4px;
+    }
+
+    /* Encounter Callout */
+    &.encounter {
+      display: block;
+      border: 2px solid black;
+      border-radius: 40px 8px 8px 8px;
+
+      header {
+        position: relative;
+        min-height: 80px;
+        padding-left: 100px;
+        color: white;
+        background: linear-gradient(180deg, #b70b0b 20%, #5e0000 100%);
+        border-bottom: 2px solid black;
+        border-radius: 40px 6px 0 40px;
+
+        img {
+          height: 96px;
+          width: 96px;
+          position: absolute;
+          left: -8px;
+          top: -10px;
+          border: none;
+          filter: drop-shadow(2px 2px 4px black);
+        }
+        h1, h2 {
+          color: white;
+          margin: 0;
+          padding: 0.5rem 0;
+        }
+      }
+
+      article {
+        padding: 1rem 1rem 0.5rem;
+
+        h3 {
+          color: var(--pf2e-red);
+          border-top: 2px solid var(--pf2e-red);
+          margin: 0.5rem 0 0;
+          padding-top: 0.5rem;
+
+          &:first-child {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+          }
+        }
+      }
+
+      a.content-link, a.entity-link, a.inline-roll {
+        background: var(--pf2e-red);
+        border-color: var(--pf2e-gold);
+        color: var(--bb-green-light);
+        padding: 2px;
+        line-height: 0.8rem;
+        font-weight: bold;
+        i {
+          color: var(--bb-green-light);
+        }
+      }
+
+      [data-pf2-repost], [data-pf2-check], [data-pf2-check]:not([data-pf2-show-dc=gm]), [data-pf2-effect-area]:not([data-pf2-show-dc=gm]) {
+        background: var(--pf2e-red);
+        border-color: var(--pf2e-gold);
+        color: var(--bb-green-light);
+        padding: 2px;
+        line-height: 0.8rem;
+        font-weight: bold;
+        i {
+          color: var(--bb-green-light);
+        }
+      }
+    }
+    /* FVTT Instructional Callout*/
+    &.fvtt {
+      display: block;
+      border: 2px solid black;
+      border-radius: 40px 8px 8px 8px;
+      box-shadow: 0 10px 13px -7px var(--color-shadow-dark);
+      header {
+        position: relative;
+        min-height: 80px;
+        padding-left: 100px;
+        color: white;
+        background: url("../../../ui/denim075.png") repeat;
+        //background: linear-gradient(180deg, #ff6400 20%, #602600 100%);
+        border-bottom: 2px solid black;
+        border-radius: 40px 6px 0 40px;
+
+        img {
+          height: 96px;
+          width: 96px;
+          position: absolute;
+          left: -8px;
+          top: -10px;
+          border: none;
+          filter: drop-shadow(2px 2px 4px black);
+        }
+        h1, h2 {
+          //color: white;
+          margin: 0;
+          padding: 0.5rem 0;
+          margin: 0;
+          padding: 0.5rem 0;
+          color:#ff6400;
+        }
+      }
+
+      article {
+        padding: 1rem 1rem 0.5rem;
+
+        h3 {
+          color: var(--color-text-hyperlink);
+          border-top: 2px solid var(--color-text-hyperlink);
+          margin: 0.5rem 0 0;
+          padding-top: 0.5rem;
+
+          &:first-child {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+          }
+        }
+      }
+
+      a.entity-link, a.content-link, a.inline-roll {
+        font-size: .9rem;
+        background: rgba(0, 0, 0, 0.5);
+        border-color: black;
+        color: white;
+        text-decoration: none;
+        padding: 2px;
+        line-height: 0.8rem;
+        font-weight: bold;
+        i {
+          color: white;
+        }
+      }
+
+      [data-pf2-repost], [data-pf2-check], [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+        font-size: .9rem;
+        background: rgba(0, 0, 0, 0.5);
+        border-color: black;
+        padding: 2px;
+        line-height: 0.8rem;
+        font-weight: bold;
+        i {
+          color: white;
+        }
+      }
+    }
+    /* Encounter Callout */
+    &.investigation {
+      display: block;
+      border: 2px solid black;
+      border-radius: 40px 8px 8px 8px;
+
+      header {
+        position: relative;
+        min-height: 80px;
+        padding-left: 100px;
+        color: white;
+        background: linear-gradient(180deg, #0bb710 20%, #005e37 100%);
+        border-bottom: 2px solid black;
+        border-radius: 40px 6px 0 40px;
+
+        img {
+          height: 96px;
+          width: 96px;
+          position: absolute;
+          left: -8px;
+          top: -10px;
+          border: none;
+          filter: drop-shadow(2px 2px 4px black);
+        }
+        h1, h2 {
+          color: white;
+          margin: 0;
+          padding: 0.5rem 0;
+        }
+      }
+
+      article {
+        padding: 1rem 1rem 0.5rem;
+
+        h3 {
+          color: var(--bb-green);
+          border-top: 2px solid var(--bb-green);
+          margin: 0.5rem 0 0;
+          padding-top: 0.5rem;
+
+          &:first-child {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+          }
+        }
+      }
+
+      a.content-link, a.entity-link, a.inline-roll {
+        background: var(--bb-green);
+        border-color: var(--bb-green-light);
+        i {
+          color: var(--bb-green-light);
+        }
+      }
+
+      [data-pf2-repost], [data-pf2-check], [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+        background: var(--bb-green);
+        border-color: var(--bb-green-light);
+        i {
+          color: var(--bb-green-light);
+        }
+      }
+    }
+    &.treasure {
+      display: block;
+      border: 2px solid black;
+      border-radius: 40px 8px 8px 8px;
+
+      header {
+        position: relative;
+        min-height: 80px;
+        padding-left: 100px;
+        color: white;
+        background: linear-gradient(180deg, #160bb7 20%, #0e005e 100%);
+        border-bottom: 2px solid black;
+        border-radius: 40px 6px 0 40px;
+
+        img {
+          height: 96px;
+          width: 96px;
+          position: absolute;
+          left: -8px;
+          top: -10px;
+          border: none;
+          filter: drop-shadow(2px 2px 4px black);
+        }
+        h1, h2 {
+          color: white;
+          margin: 0;
+          padding: 0.5rem 0;
+        }
+      }
+
+      article {
+        padding: 1rem 1rem 0.5rem;
+
+        h3 {
+          color: var(--paizo-blue-dark);
+          border-top: 2px solid var(--pf2e-red);
+          margin: 0.5rem 0 0;
+          padding-top: 0.5rem;
+
+          &:first-child {
+            margin-top: 0;
+            padding-top: 0;
+            border-top: none;
+          }
+        }
+      }
+
+      a.content-link, a.entity-link, a.inline-roll {
+        background: var(--paizo-blue-dark);
+        border-color: var(--pf2e-gold);
+        i {
+          color: var(--bb-green-light);
+        }
+      }
+
+      [data-pf2-repost], [data-pf2-check], [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+        background: var(--paizo-blue-dark);
+        border-color: var(--pf2e-gold);
+        i {
+          color: var(--bb-green-light);
+        }
+      }
+    }
+  }
+
+   /* Non-callout block quotes, for example the green text poem in Chapter 1 */
+  blockquote {
+    border: unset;
+    p {
+      font-family: 'Sabon LT', serif;
+
+    }
+    &.bb-quote {
+      color: var(--bb-green);
+      float: left;
+      margin: 10px 10px 0px 0px;
+      padding: 10px;
+      border-right: 2px solid var(--bb-green);
+    }
+  }
+
+  /* Flex container for full-width content */
+
+  .bb-flexcol {
+    display:flex;
+    flex-direction: column;
+    margin: 0 5px 10px 10px;
+    padding: 10px 10px 0;
+    background: #d3e5af;
+    border: 2px solid var(--bb-green);
+    border-radius: 10px;
+    box-shadow: 0 0 6px #637063 inset;
+    color: black;
+
+    h2 {
+      font-family: var(--h1-font);
+      color: var(--bb-green);
+      font-weight: normal;
+      &:first-child {
+        margin-top: 0;
+      }
+      &:nth-of-type(2) {
+        border-top: 2px dotted var(--bb-green);
+        padding-top: 5px;
+      }
+    }
+    h4 {
+      font-size: 1.25rem;
+      color: var(--bb-green);
+      margin-bottom: 0;
+    }
+    p {
+      font-family: var(--box-font);
+      font-size: var(--box-font-size);
+      line-height: var(--box-font-size);
+    }
+  }
+
+  aside.bb-sidebar {
+    border-left: 3px solid;
+    flex-basis: 37%;
+    margin-left: 10px;
+    padding-left: 20px;
+  }
+
+  aside.bb-sidebar ul {
+    font-size: .80rem;
+  }
+
+  aside.bb-float-block {
+    float: right;
+    margin: 0 5px 10px 10px;
+    width: 280px;
+    padding: 10px 10px 0;
+    background: #d3e5af;
+    border: 2px solid var(--bb-green);
+    border-radius: 10px;
+    box-shadow: 0 0 6px #637063 inset;
+    color: black;
+
+    h2 {
+      font-family: var(--h1-font);
+      color: var(--bb-green);
+      font-weight: normal;
+      &:first-child {
+        margin-top: 0;
+      }
+    }
+    h4 {
+      font-size: 1.25rem;
+      color: var(--bb-green);
+      margin-bottom: 0;
+    }
+    p {
+      font-family: var(--box-font);
+      font-size: var(--box-font-size);
+      line-height: var(--box-font-size);
+    }
+  }
+
+  .character-gallery {
+    justify-content: space-around;
+    margin: 1rem 0;
+    background: var(--bb-green-light);
+    border: 2px solid var(--bb-green);
+    border-radius: 10px;
+    figure {
+      flex: 0 0 160px;
+      margin: 0.25rem;
+      img {
+        border: none;
+      }
+      figcaption {
+        font-family: var(--main-font);
+        font-size: var(--body-font-size);
+      }
+    }
+  }
+  .character-creation {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    width: 99%;
+
+    article {
+      background: var(--bb-green-light);
+      flex-basis: 49%;
+      padding: 5px;
+      border: 2px solid var(--bb-green);
+      border-radius: 10px;
+      &.full {
+        flex-basis: 100%;
+      }
+      h3 {
+        border-bottom: 3px dotted var(--bb-green);
+        margin-bottom: 1rem;
+      }
+      section {
+        display: flex;
+        justify-content: space-around;
+        margin: 1rem 0;
+        img {
+          border:none;
+          filter: drop-shadow(2px 4px 6px black);
+        }
+        font-family: var(--main-font);
+        font-size: var(--body-font-size);
+
+      }
+    }
+  }
+
+}

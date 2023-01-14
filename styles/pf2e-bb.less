@@ -1,0 +1,29 @@
+/* handle imports of the initial files */
+@import "fonts.less";
+@import "variables.less";
+@import "typography.less";
+
+@import "importer.less";
+@import "templates.less";
+@import "blocks.less";
+
+.pf2e-bb.journal-sheet:not(.minimized) {
+  h4.window-title {
+    visibility: hidden;
+  }
+}
+
+.pf2e-bb section.window-content & section.journal-entry-content {
+  color: black;
+  background: url("./assets/paperback.webp") repeat;
+  min-width: 600px;
+  min-height: 175px;
+}
+
+/* Overrides to core styles */
+
+  .sheet.journal-entry .journal-entry-page :is(h1, h2, h3, h4, h5, h6):not(:first-child) {
+    margin-top: unset;
+  }
+
+

@@ -1,0 +1,50 @@
+/***
+Structural changes to the html of the sheet by way of CSS
+ */
+.pf2e-bb {
+  section.journal-entry-content {
+    > .journal-entry-pages {
+      margin: 0 0 0 0.5rem;
+      padding-right: 1rem;
+    }
+  }
+
+  .journal-header {
+    margin: .25rem;
+    input.title {
+
+      background: url("./assets/border-left.webp"),
+      url("./assets/border-right.webp"),
+      url("./assets/border-top.webp"),
+      url("./assets/border-bottom.webp"),
+      url("./assets/header-back-center.webp");
+      background-repeat: no-repeat, no-repeat, repeat-x, repeat-x, repeat-x;
+      background-position: -10px calc(100% + 3px),
+      calc(100% + 10px) calc(100% + 3px),
+      100% 1px,
+      100% 100%,
+      100% 100%;
+      height: 90px;
+      line-height: 32px;
+      border: none;
+      text-align: center;
+      font-family: var(--h1-font);
+      font-size: 2.5rem;
+      color: var(--bb-green);
+      letter-spacing: -0.1rem;
+      text-transform: uppercase;
+    }
+
+    select[name="folder"] {
+      display: none
+    }
+  }
+}
+
+/***
+Temporary override of the TinyMCE editor view to incorporate our styles.
+ *//*
+#tinymce {
+  .pf2e-bb();
+  .journal-sheet.pf2e-bb();
+}*/

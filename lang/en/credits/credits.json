@@ -1,0 +1,29 @@
+{
+  "name": "Beginner's Box Credits",
+  "description": "<p>This import includes all of the credits and legal information for the Pathfinder Beginner Box, including special thanks for the development team of the Pathfinder Second Edition game system for Foundry VTT.</p>",
+  "folders": [
+    {
+      "name": "Credits",
+      "_id": "taXF4HGkCR81phHm"
+    }
+  ],
+  "journal": [
+    {
+      "name": "Audio Credits",
+      "_id": "X973rGqFbrRLpdxp"
+    },
+    {
+      "name": "License Information",
+      "_id": "cqKCVpfalZB63juW"
+    },
+    {
+      "name": "Foundry Credits",
+      "_id": "oF0yMqDDMhdDkAiV"
+    },
+    {
+      "name": "Paizo Credits",
+      "_id": "s3WmglrcqahPhzpo"
+    }
+  ],
+  "_id": "4hyvl2gjUfMNSExJ"
+}

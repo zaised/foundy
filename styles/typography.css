@@ -1,0 +1,83 @@
+/* Headers */
+.pf2e-bb p {
+  font-family: var(--main-font);
+  font-size: var(--body-font-size);
+  line-height: 1.4rem;
+  margin: 0.25rem 0;
+}
+.pf2e-bb h1 {
+  font-family: var(--h1-font);
+  font-size: var(--h1-font-size);
+  letter-spacing: 0.1rem;
+}
+.pf2e-bb h1 .title {
+  font-family: var(--heading-title-font);
+  font-size: var(--heading-title-font-size);
+  border-bottom: var(--heading-title-border-bottom);
+  border-image: var(--heading-title-border-image);
+  text-align: center;
+}
+.pf2e-bb h2 {
+  font-family: var(--h2-font);
+  font-size: var(--h2-font-size);
+  font-weight: bold;
+  text-transform: uppercase;
+}
+.pf2e-bb h3 {
+  font-family: var(--h3-font);
+  font-size: var(--h3-font-size);
+}
+.pf2e-bb h4 {
+  font-family: var(--h3-font);
+  font-weight: bold;
+  font-size: var(--h3-font-size);
+  text-transform: capitalize;
+}
+.pf2e-bb h1,
+.pf2e-bb h2,
+.pf2e-bb h3 {
+  text-align: left;
+  border: none;
+  color: var(--bb-green);
+  display: block;
+  margin: 5px 0px 5px 0px;
+}
+.pf2e-bb a.entity-link,
+.pf2e-bb a.entity-link.broken,
+.pf2e-bb a.content-link {
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 4px 2px 2px 2px;
+  background: var(--bb-green);
+  color: var(--bb-green-light);
+  margin-right: 1px;
+  border-color: var(--bb-green);
+  line-height: 0.8rem;
+}
+.pf2e-bb a.entity-link i,
+.pf2e-bb a.entity-link.broken i,
+.pf2e-bb a.content-link i {
+  color: var(--bb-green-light);
+}
+.pf2e-bb [data-pf2-check]::before,
+.pf2e-bb [data-pf2-repost]::before {
+  padding: unset;
+  color: var(--bb-green-light);
+  margin-left: 2px;
+}
+.pf2e-bb [data-pf2-repost],
+.pf2e-bb [data-pf2-check],
+.pf2e-bb [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+  font-weight: bold;
+  font-size: 0.9rem;
+  padding: 4px 2px 2px 2px;
+  background: var(--bb-green);
+  color: var(--bb-green-light);
+  margin-right: 1px;
+  border-color: var(--bb-green);
+  line-height: 0.8rem;
+}
+.pf2e-bb [data-visibility]:is(div,em,h4,p,section,span,strong):not([data-visibility=all])[data-visibility=owner] {
+  background: rgba(0, 0, 0, 0.5);
+}
+/*# sourceMappingURL=typography.css.map */

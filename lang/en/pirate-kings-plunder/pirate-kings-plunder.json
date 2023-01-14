@@ -1,0 +1,129 @@
+{
+  "name": "Pirate King's Plunder",
+  "description": "<p>Pirate King's Plunder is a simple adventure which requires no GM and can be completed by a single player.</p>\n\n\t<p>In Pirate King's Plunder, you won't advance through the story by reading the journals in chronological order. Instead, at the end of each entry, you'll be presented with a set of choices. The decisions you make will lead you to different entries, which you can follow simply by clicking through the linked journal entries. For convenience, we have included a helpful journal entry to keep track of your notes and allow you to conveniently roll dice for your attacks and statistics.</p>",
+  "folders": [
+    {
+      "name": "Pirate King's Plunder",
+      "_id": "XdmfxkeNJZ8BsOU3"
+    },
+    {
+      "name": "Adventure Steps",
+      "_id": "HwAqaqg9CBzBl0Qk"
+    }
+  ],
+  "journal": [
+    {
+      "name": "Introduction",
+      "_id": "MNx5B6xIGsHwGzqe"
+    },
+    {
+      "name": "Scratch Paper",
+      "_id": "OJ6KXlPgacdLfZnC"
+    },
+    {
+      "name": "Combat",
+      "_id": "Ogyn03yr9xH6oVNz"
+    },
+    {
+      "name": "#17",
+      "_id": "0KrnycmJ3gpMxZCb"
+    },
+    {
+      "name": "#22",
+      "_id": "104Eei1LejLXN3sX"
+    },
+    {
+      "name": "#20",
+      "_id": "3te6C7ihVQmcNZP3"
+    },
+    {
+      "name": "#15",
+      "_id": "4Q8GPG7aA2857aQv"
+    },
+    {
+      "name": "#03",
+      "_id": "5E8aGKifyMVJGp7l"
+    },
+    {
+      "name": "#18",
+      "_id": "5GuJbY1e4DbOwU6P"
+    },
+    {
+      "name": "#01",
+      "_id": "84g4A22otQbtAqYu"
+    },
+    {
+      "name": "#12",
+      "_id": "8X95U6fAElfxqnMW"
+    },
+    {
+      "name": "#10",
+      "_id": "DeO64JMFe3hQjwEq"
+    },
+    {
+      "name": "#06",
+      "_id": "Dq53FcGctvyx9nAR"
+    },
+    {
+      "name": "#09",
+      "_id": "EiwyABfG5GG7Dsys"
+    },
+    {
+      "name": "#16",
+      "_id": "FKMKq7t9tPKkfluH"
+    },
+    {
+      "name": "#19",
+      "_id": "IRGpMM5yy3BsheII"
+    },
+    {
+      "name": "#07",
+      "_id": "KPZ3GVLZVIyf7xsE"
+    },
+    {
+      "name": "#11",
+      "_id": "MYVU1ntyUDScHW2E"
+    },
+    {
+      "name": "#24",
+      "_id": "N3o377DlgFJoplmb"
+    },
+    {
+      "name": "#14",
+      "_id": "VKuqgiIv6ZOF37jY"
+    },
+    {
+      "name": "#25",
+      "_id": "do0nZozxAjqXPgCY"
+    },
+    {
+      "name": "#23",
+      "_id": "f8n0LQLyX36kNDZ8"
+    },
+    {
+      "name": "#04",
+      "_id": "fK2fKN9czK6Ij82V"
+    },
+    {
+      "name": "#05",
+      "_id": "mz1Ezspf7RwqusCz"
+    },
+    {
+      "name": "#02",
+      "_id": "pABtZI2SaU7Q5aGP"
+    },
+    {
+      "name": "#13",
+      "_id": "rfayg9S5mr0F5xsW"
+    },
+    {
+      "name": "#08",
+      "_id": "x8kZYpSLvTeAw7ba"
+    },
+    {
+      "name": "#21",
+      "_id": "zBVNHcEICx4xYrvI"
+    }
+  ],
+  "_id": "5KQWZpnK28WGytlL"
+}

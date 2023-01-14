@@ -1,0 +1,35 @@
+/***
+Structural changes to the html of the sheet by way of CSS
+ */
+.pf2e-bb form .editor {
+  height: calc(100% - 140px);
+}
+.pf2e-bb .bb-top-header {
+  background: url("./assets/border-left.webp"), url("./assets/border-right.webp"), url("./assets/border-top.webp"), url("./assets/border-bottom.webp"), url("./assets/header-back-center.webp");
+  background-repeat: no-repeat, no-repeat, repeat-x, repeat-x, repeat-x;
+  background-position: -10px calc(100% + 3px), ca10px calc(100% + 3px), 100% 1px, 100% 100%, 100% 100%;
+  margin-bottom: 5px;
+}
+.pf2e-bb .bb-top-header input[name="name"] {
+  height: 90px;
+  line-height: 32px;
+  background: transparent;
+  border: none;
+  text-align: center;
+  font-family: var(--h1-font);
+  font-size: 3.25rem;
+  color: var(--bb-green);
+  letter-spacing: 0.1rem;
+}
+.pf2e-bb select[name="folder"] {
+  display: none;
+}
+/***
+Temporary override of the TinyMCE editor view to incorporate our styles.
+ */
+/*
+#tinymce {
+  .pf2e-bb();
+  .journal-sheet.pf2e-bb();
+}*/
+/*# sourceMappingURL=templates.css.map */

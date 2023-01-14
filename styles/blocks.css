@@ -1,0 +1,508 @@
+.journal-sheet.pf2e-bb {
+  min-width: 600px;
+  min-height: 175px;
+  /* Tables */
+  /* Unordered Lists */
+  /* Content Toolkit text blocks */
+  /* Content Toolkit Callout Blocks */
+  /* Audio Callout Gradient */
+  /* Macro Callout Gradient */
+  /* Non-callout block quotes, for example the green text poem in Chapter 1 */
+  /* Blocks for handling chapter summary content */
+}
+.journal-sheet.pf2e-bb table {
+  max-width: 95%;
+  margin-left: auto;
+  margin-right: auto;
+  border: unset;
+  font-size: 0.95rem;
+}
+.journal-sheet.pf2e-bb table td,
+.journal-sheet.pf2e-bb table th {
+  min-width: 10rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
+}
+.journal-sheet.pf2e-bb table th {
+  text-align: left;
+  font-family: 'Good OT Bold', serif;
+  background: var(--pf2e-red);
+  color: var(--bb-white);
+}
+.journal-sheet.pf2e-bb table tr {
+  background: var(--bb-table);
+}
+.journal-sheet.pf2e-bb table tr:nth-child(even) {
+  background: var(--bb-table-light);
+}
+.journal-sheet.pf2e-bb ul {
+  font-family: var(--main-font);
+  font-size: var(--body-font-size);
+}
+.journal-sheet.pf2e-bb .box-text {
+  display: flex;
+  border: 2px solid black;
+  margin: 0.5rem;
+  /*
+      a.entity-link {
+        font-weight: bold;
+        line-height: unset;
+        background: var(--pf2e-red);
+        color: var(--bb-gold);
+        padding: 6px 4px 4px 4px;
+        border: 2px solid var(--bb-gold);
+        i {
+          color: var(--bb-gold)
+        };
+
+      }*/
+  /* Encounter Callout */
+  /* FVTT Instructional Callout*/
+  /* Encounter Callout */
+}
+.journal-sheet.pf2e-bb .box-text.right {
+  float: right;
+  margin: 0.25rem 0 0.25rem 0.25rem;
+}
+.journal-sheet.pf2e-bb .box-text.left {
+  float: left;
+  margin: 0.25rem 0.25rem 0.25rem 0rem;
+}
+.journal-sheet.pf2e-bb .box-text > .box-border {
+  min-height: 300px;
+  background: url(./assets/sidebar-top.webp), url(./assets/sidebar-bottom.webp);
+  background-repeat: no-repeat, no-repeat;
+  background-position: right top, bottom left;
+  background-size: 97% 210px, 97% 210px;
+  padding: 2.5rem;
+}
+.journal-sheet.pf2e-bb .box-text > .box-border > .box-content {
+  min-height: 220px;
+  margin: 0.5rem 0.15rem 1rem;
+}
+.journal-sheet.pf2e-bb .box-text > .box-border > .box-content h2 {
+  font-family: var(--h2-sidebar);
+  font-size: var(--h2-sidebar-font-size);
+}
+.journal-sheet.pf2e-bb .box-text > .box-border > .box-content > h1,
+.journal-sheet.pf2e-bb .box-text > .box-border > .box-content h2,
+.journal-sheet.pf2e-bb .box-text > .box-border > .box-content h3 {
+  color: var(--bb-white);
+  margin-top: 0;
+}
+.journal-sheet.pf2e-bb .box-text ::-webkit-scrollbar-thumb {
+  background: var(--bb-gold-dark);
+  border: 1px solid var(--bb-gold);
+}
+.journal-sheet.pf2e-bb .box-text.narrative {
+  background: rgba(255, 255, 255, 0.8);
+  box-shadow: 0 10px 13px -7px var(--color-shadow-dark);
+  font-size: 1.1rem;
+  font-family: var(--narrative-font);
+  border-top: 2px ridge var(--bb-green);
+  border-bottom: 2px ridge var(--bb-green);
+  border-left: none;
+  border-right: none;
+  color: var(--bb-green);
+  padding: 5px 10px 5px 5px;
+  margin: 1rem 3%;
+}
+.journal-sheet.pf2e-bb .box-text.location {
+  font-family: var(--main-font);
+  flex-direction: column;
+}
+.journal-sheet.pf2e-bb .box-text.location .flexrow {
+  display: flex;
+  justify-content: space-between;
+}
+.journal-sheet.pf2e-bb .box-text.location .flexrow :nth-child(even) {
+  text-align: right;
+}
+.journal-sheet.pf2e-bb .box-text.location .flexrow.head {
+  border-bottom: 1px solid;
+}
+.journal-sheet.pf2e-bb .box-text.location ul {
+  margin: unset;
+  padding: unset;
+}
+.journal-sheet.pf2e-bb .box-text.location ul.traits {
+  list-style-type: none;
+  display: flex;
+  gap: 5px;
+  margin-top: 5px;
+}
+.journal-sheet.pf2e-bb .box-text.location ul.traits li {
+  border-left: 5px solid var(--bb-gold);
+  border-right: 5px solid var(--bb-gold);
+  background: var(--pf2e-red);
+  color: white;
+  padding: 6px 8px 2px 8px;
+  text-transform: uppercase;
+  font-family: 'Good OT Cond Bold';
+  max-height: 24px;
+}
+.journal-sheet.pf2e-bb .box-text.location ul.npcs {
+  padding: unset;
+  list-style-type: none;
+  font-size: var(--body-font-size);
+}
+.journal-sheet.pf2e-bb .box-text.location ul.npcs li {
+  margin: 8px 0px 8px 0px;
+}
+.journal-sheet.pf2e-bb .box-text.location ul.features {
+  margin-left: 20px;
+  max-width: 100%;
+  font-size: var(--body-font-size);
+  list-style-type: none;
+}
+.journal-sheet.pf2e-bb .box-text.location ul.features li {
+  margin-bottom: 5px;
+  max-width: 500px;
+  min-width: 200px;
+}
+.journal-sheet.pf2e-bb .box-text .subflex {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.journal-sheet.pf2e-bb .box-text .subflex ul {
+  flex-basis: 60%;
+}
+.journal-sheet.pf2e-bb .box-text .subflex .p {
+  flex-basis: 30%;
+}
+.journal-sheet.pf2e-bb .box-text hr {
+  width: 100%;
+  margin: 4px;
+}
+.journal-sheet.pf2e-bb .box-text.encounter {
+  display: block;
+  border: 2px solid black;
+  border-radius: 40px 8px 8px 8px;
+}
+.journal-sheet.pf2e-bb .box-text.encounter header {
+  position: relative;
+  min-height: 80px;
+  padding-left: 100px;
+  color: white;
+  background: linear-gradient(180deg, #b70b0b 20%, #5e0000 100%);
+  border-bottom: 2px solid black;
+  border-radius: 40px 6px 0 40px;
+}
+.journal-sheet.pf2e-bb .box-text.encounter header img {
+  height: 96px;
+  width: 96px;
+  position: absolute;
+  left: -8px;
+  top: -10px;
+  border: none;
+  filter: drop-shadow(2px 2px 4px black);
+}
+.journal-sheet.pf2e-bb .box-text.encounter header h1,
+.journal-sheet.pf2e-bb .box-text.encounter header h2 {
+  color: white;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+.journal-sheet.pf2e-bb .box-text.encounter article {
+  padding: 1rem 1rem 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.encounter article h3 {
+  color: var(--pf2e-red);
+  border-top: 2px solid var(--pf2e-red);
+  margin: 0.5rem 0 0;
+  padding-top: 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.encounter article h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.journal-sheet.pf2e-bb .box-text.encounter a.entity-link,
+.journal-sheet.pf2e-bb .box-text.encounter a.inline-roll {
+  background: var(--pf2e-red);
+  border-color: var(--pf2e-gold);
+  color: var(--bb-green-light);
+  padding: 4px 2px 2px 2px;
+  line-height: 0.8rem;
+  font-weight: bold;
+}
+.journal-sheet.pf2e-bb .box-text.encounter a.entity-link i,
+.journal-sheet.pf2e-bb .box-text.encounter a.inline-roll i {
+  color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-repost],
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-check],
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-check]:not([data-pf2-show-dc=gm]),
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-effect-area]:not([data-pf2-show-dc=gm]) {
+  background: var(--pf2e-red);
+  border-color: var(--pf2e-gold);
+  color: var(--bb-green-light);
+  padding: 4px 2px 2px 2px;
+  line-height: 0.8rem;
+  font-weight: bold;
+}
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-repost] i,
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-check] i,
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-check]:not([data-pf2-show-dc=gm]) i,
+.journal-sheet.pf2e-bb .box-text.encounter [data-pf2-effect-area]:not([data-pf2-show-dc=gm]) i {
+  color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb .box-text.fvtt {
+  display: block;
+  border: 2px solid black;
+  border-radius: 40px 8px 8px 8px;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt header {
+  position: relative;
+  min-height: 80px;
+  padding-left: 100px;
+  color: white;
+  background: linear-gradient(180deg, #ff6400 20%, #602600 100%);
+  border-bottom: 2px solid black;
+  border-radius: 40px 6px 0 40px;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt header img {
+  height: 96px;
+  width: 96px;
+  position: absolute;
+  left: -8px;
+  top: -10px;
+  border: none;
+  filter: drop-shadow(2px 2px 4px black);
+}
+.journal-sheet.pf2e-bb .box-text.fvtt header h1,
+.journal-sheet.pf2e-bb .box-text.fvtt header h2 {
+  color: white;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt article {
+  padding: 1rem 1rem 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt article h3 {
+  color: var(--color-text-hyperlink);
+  border-top: 2px solid var(--color-text-hyperlink);
+  margin: 0.5rem 0 0;
+  padding-top: 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt article h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt a.entity-link,
+.journal-sheet.pf2e-bb .box-text.fvtt a.content-link,
+.journal-sheet.pf2e-bb .box-text.fvtt a.inline-roll {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: black;
+  color: white;
+  text-decoration: none;
+  padding: 4px 2px 2px 2px;
+  line-height: 0.8rem;
+  font-weight: bold;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt a.entity-link i,
+.journal-sheet.pf2e-bb .box-text.fvtt a.content-link i,
+.journal-sheet.pf2e-bb .box-text.fvtt a.inline-roll i {
+  color: white;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt [data-pf2-repost],
+.journal-sheet.pf2e-bb .box-text.fvtt [data-pf2-check],
+.journal-sheet.pf2e-bb .box-text.fvtt [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+  background: rgba(0, 0, 0, 0.5);
+  border-color: black;
+  padding: 4px 2px 2px 2px;
+  line-height: 0.8rem;
+  font-weight: bold;
+}
+.journal-sheet.pf2e-bb .box-text.fvtt [data-pf2-repost] i,
+.journal-sheet.pf2e-bb .box-text.fvtt [data-pf2-check] i,
+.journal-sheet.pf2e-bb .box-text.fvtt [data-pf2-check]:not([data-pf2-show-dc=gm]) i {
+  color: white;
+}
+.journal-sheet.pf2e-bb .box-text.investigation {
+  display: block;
+  border: 2px solid black;
+  border-radius: 40px 8px 8px 8px;
+}
+.journal-sheet.pf2e-bb .box-text.investigation header {
+  position: relative;
+  min-height: 80px;
+  padding-left: 100px;
+  color: white;
+  background: linear-gradient(180deg, #0bb710 20%, #005e37 100%);
+  border-bottom: 2px solid black;
+  border-radius: 40px 6px 0 40px;
+}
+.journal-sheet.pf2e-bb .box-text.investigation header img {
+  height: 96px;
+  width: 96px;
+  position: absolute;
+  left: -8px;
+  top: -10px;
+  border: none;
+  filter: drop-shadow(2px 2px 4px black);
+}
+.journal-sheet.pf2e-bb .box-text.investigation header h1,
+.journal-sheet.pf2e-bb .box-text.investigation header h2 {
+  color: white;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+.journal-sheet.pf2e-bb .box-text.investigation article {
+  padding: 1rem 1rem 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.investigation article h3 {
+  color: var(--bb-green);
+  border-top: 2px solid var(--bb-green);
+  margin: 0.5rem 0 0;
+  padding-top: 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.investigation article h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.journal-sheet.pf2e-bb .box-text.investigation a.entity-link,
+.journal-sheet.pf2e-bb .box-text.investigation a.inline-roll {
+  background: var(--bb-green);
+  border-color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb .box-text.investigation a.entity-link i,
+.journal-sheet.pf2e-bb .box-text.investigation a.inline-roll i {
+  color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb .box-text.investigation [data-pf2-repost],
+.journal-sheet.pf2e-bb .box-text.investigation [data-pf2-check],
+.journal-sheet.pf2e-bb .box-text.investigation [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+  background: var(--bb-green);
+  border-color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb .box-text.investigation [data-pf2-repost] i,
+.journal-sheet.pf2e-bb .box-text.investigation [data-pf2-check] i,
+.journal-sheet.pf2e-bb .box-text.investigation [data-pf2-check]:not([data-pf2-show-dc=gm]) i {
+  color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb .box-text.treasure {
+  display: block;
+  border: 2px solid black;
+  border-radius: 40px 8px 8px 8px;
+}
+.journal-sheet.pf2e-bb .box-text.treasure header {
+  position: relative;
+  min-height: 80px;
+  padding-left: 100px;
+  color: white;
+  background: linear-gradient(180deg, #160bb7 20%, #0e005e 100%);
+  border-bottom: 2px solid black;
+  border-radius: 40px 6px 0 40px;
+}
+.journal-sheet.pf2e-bb .box-text.treasure header img {
+  height: 96px;
+  width: 96px;
+  position: absolute;
+  left: -8px;
+  top: -10px;
+  border: none;
+  filter: drop-shadow(2px 2px 4px black);
+}
+.journal-sheet.pf2e-bb .box-text.treasure header h1,
+.journal-sheet.pf2e-bb .box-text.treasure header h2 {
+  color: white;
+  margin: 0;
+  padding: 0.5rem 0;
+}
+.journal-sheet.pf2e-bb .box-text.treasure article {
+  padding: 1rem 1rem 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.treasure article h3 {
+  color: var(--paizo-blue-dark);
+  border-top: 2px solid var(--pf2e-red);
+  margin: 0.5rem 0 0;
+  padding-top: 0.5rem;
+}
+.journal-sheet.pf2e-bb .box-text.treasure article h3:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: none;
+}
+.journal-sheet.pf2e-bb .box-text.treasure a.entity-link,
+.journal-sheet.pf2e-bb .box-text.treasure a.inline-roll {
+  background: var(--paizo-blue-dark);
+  border-color: var(--pf2e-gold);
+}
+.journal-sheet.pf2e-bb .box-text.treasure a.entity-link i,
+.journal-sheet.pf2e-bb .box-text.treasure a.inline-roll i {
+  color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb .box-text.treasure [data-pf2-repost],
+.journal-sheet.pf2e-bb .box-text.treasure [data-pf2-check],
+.journal-sheet.pf2e-bb .box-text.treasure [data-pf2-check]:not([data-pf2-show-dc=gm]) {
+  background: var(--paizo-blue-dark);
+  border-color: var(--pf2e-gold);
+}
+.journal-sheet.pf2e-bb .box-text.treasure [data-pf2-repost] i,
+.journal-sheet.pf2e-bb .box-text.treasure [data-pf2-check] i,
+.journal-sheet.pf2e-bb .box-text.treasure [data-pf2-check]:not([data-pf2-show-dc=gm]) i {
+  color: var(--bb-green-light);
+}
+.journal-sheet.pf2e-bb.audio {
+  border: 2px solid black;
+  background: #facc22;
+  background: linear-gradient(90deg, rgba(248, 54, 0, 0.5) 0%, rgba(250, 204, 34, 0.5) 100%);
+}
+.journal-sheet.pf2e-bb.macro {
+  border: 2px solid black;
+  background: #8ed9e7;
+  background: linear-gradient(0deg, rgba(142, 217, 231, 0.5) 0%, rgba(131, 83, 215, 0.5) 100%);
+}
+.journal-sheet.pf2e-bb blockquote {
+  border: unset;
+}
+.journal-sheet.pf2e-bb blockquote p {
+  font-family: 'Sabon LT', serif;
+}
+.journal-sheet.pf2e-bb blockquote.bb-quote {
+  color: var(--bb-green);
+  float: left;
+  margin: 10px 10px 0px 0px;
+  padding: 10px;
+  border-right: 2px solid var(--bb-green);
+}
+.journal-sheet.pf2e-bb div.bb-flexcontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.journal-sheet.pf2e-bb section.bb-flexsection {
+  flex-basis: 60%;
+}
+.journal-sheet.pf2e-bb aside.bb-sidebar {
+  border-left: 3px solid;
+  flex-basis: 37%;
+  margin-left: 10px;
+  padding-left: 20px;
+}
+.journal-sheet.pf2e-bb aside.bb-sidebar ul {
+  font-size: 0.8rem;
+}
+.journal-sheet.pf2e-bb aside.bb-float-block {
+  float: right;
+  margin: 0px 10px 0px 20px;
+  width: 250px;
+  background: #d3e5af;
+  border: 2px solid var(--bb-green);
+  border-radius: 10px;
+  color: black;
+  padding: 5px;
+}
+.journal-sheet.pf2e-bb aside.bb-float-block h2 {
+  color: var(--bb-green);
+}
+.journal-sheet.pf2e-bb aside.bb-float-block p {
+  text-align: justify;
+  font-size: 0.8rem;
+  line-height: 0.95rem;
+}
+/*# sourceMappingURL=blocks.css.map */

@@ -1,0 +1,1428 @@
+{
+  "name": "Menace Under Otari",
+  "description": "<p>\"Menace under Otari\" is designed to teach new Game Masters and players how to play Pathfinder using Foundry VTT. Each section of the adventure will teach new concepts and introduce features of the program, adding more and more to the game. Meanwhile, the other players each have an entire hero to roleplay as, learning how to use their abilities and how to succeed in the dangerous world that they find themselves exploring.</p>",
+  "actors": [
+    {
+      "name": "Cinder Rat",
+      "_id": "hiGwRWdxAsoCII4f"
+    },
+    {
+      "name": "Giant Rat",
+      "_id": "AYwdybUfm4meGUTJ"
+    },
+    {
+      "name": "Giant Spider",
+      "_id": "6NdqvKIlxo4cGhf8"
+    },
+    {
+      "name": "Green Dragon Wyrmling",
+      "_id": "WPsgrCUSFCqgDvJi"
+    },
+    {
+      "name": "Kobold Scout",
+      "_id": "rPaHIh0ICnTLnRO6"
+    },
+    {
+      "name": "Kobold Trapmaster",
+      "_id": "4Axci50gPQArPg7d"
+    },
+    {
+      "name": "Kobold Warrior",
+      "_id": "r9w1n85mp9Ip4QiS"
+    },
+    {
+      "name": "Skeleton Guard",
+      "_id": "5H8ZX7y5IkUBhvhF"
+    },
+    {
+      "name": "Xulgath Warrior",
+      "_id": "RTzFvmdSCf5yhguy"
+    },
+    {
+      "name": "Zolgran",
+      "_id": "AleeS0IRqT4tUphB"
+    },
+    {
+      "name": "Zombie Shambler",
+      "_id": "0plBflWwrCWQO2RO"
+    },
+    {
+      "name": "Central Spears",
+      "_id": "j8qD2LVDSP2lhLUO"
+    },
+    {
+      "name": "Falling Ceiling",
+      "_id": "Z9ggO7spfHwr8up1"
+    },
+    {
+      "name": "Mermaid Fountain",
+      "_id": "v51J7K27abdDyLgJ"
+    },
+    {
+      "name": "Spike Trap",
+      "_id": "X1ZVzivrcAqbNDq2"
+    },
+    {
+      "name": "Ezren",
+      "_id": "WNX5OQKPh4uaV7mW"
+    },
+    {
+      "name": "Kyra",
+      "_id": "yoAU5rWYH4KJGPr5"
+    },
+    {
+      "name": "Merisiel",
+      "_id": "czQ0MaZBu3BqMpce"
+    },
+    {
+      "name": "Valeros",
+      "_id": "vcwqnXHkhzFhrt7O"
+    },
+    {
+      "name": "Abadar's Vault",
+      "_id": "8PgsPDw5TjD2dUTr"
+    },
+    {
+      "name": "Abandoned Storeroom",
+      "_id": "yFRBdjHLEsCU66sI"
+    },
+    {
+      "name": "Dragon's Lair",
+      "_id": "mygajPl08HHktFRV"
+    },
+    {
+      "name": "Forgotten Crypt",
+      "_id": "sRzrLrMdVXKZjkFA"
+    },
+    {
+      "name": "Kobold Loot",
+      "_id": "1S486XWdfcEWYv6T"
+    },
+    {
+      "name": "Mermaid Fountain",
+      "_id": "xhyzSiXfoAxud376"
+    },
+    {
+      "name": "Spider's Lair",
+      "_id": "PziNyZC7L7e9SsGr"
+    },
+    {
+      "name": "Zolgran's Treasure",
+      "_id": "p84EOttaNannSP3y"
+    }
+  ],
+  "folders": [
+    {
+      "name": "Beginner's Guide",
+      "_id": "B6DenhzYfu2upAsY"
+    },
+    {
+      "name": "Character Creation",
+      "_id": "kIIv9eQHTYiGDiSV"
+    },
+    {
+      "name": "Ancestries",
+      "_id": "gTRlnIv94C28tZ6q"
+    },
+    {
+      "name": "Classes",
+      "_id": "FFMljS1xOPV9b9ar"
+    },
+    {
+      "name": "Game Mechanics",
+      "_id": "OfDD6UZU8LL6J1VR"
+    },
+    {
+      "name": "Character Abilities",
+      "_id": "gWYQ6AssXJE1noqA"
+    },
+    {
+      "name": "Modes of Play",
+      "_id": "d6ovdH9YtKZIqEo7"
+    },
+    {
+      "name": "Types of Rolls",
+      "_id": "FI0Ho37kbRDsxPLI"
+    },
+    {
+      "name": "Gamemastering",
+      "_id": "LblI3YBfHwUEF4jt"
+    },
+    {
+      "name": "Artwork Handouts",
+      "_id": "5VldGzIgMLsyB8fE"
+    },
+    {
+      "name": "Creating Challenges",
+      "_id": "yc2yvor7pQR2LCwY"
+    },
+    {
+      "name": "Planning Your Game",
+      "_id": "FTRDYzvlkCVwS2t3"
+    },
+    {
+      "name": "Beginner's Guide",
+      "_id": "YxpbJPWno3Ajq1CJ"
+    },
+    {
+      "name": "Menace Under Otari",
+      "_id": "6uvlXGlICsQdIAVF"
+    },
+    {
+      "name": "Menace Under Otari",
+      "_id": "AurJkBPAmAM0OEdn"
+    },
+    {
+      "name": "Menace Under Otari",
+      "_id": "CcJEhYD5T2syIU5E"
+    },
+    {
+      "name": "Creatures",
+      "_id": "y3Icz6su30PFREYT"
+    },
+    {
+      "name": "Hazards",
+      "_id": "N4FaGSysy2CozV4K"
+    },
+    {
+      "name": "Heroes",
+      "_id": "qfZczJD0xO70oGvC"
+    },
+    {
+      "name": "Treasure",
+      "_id": "0fbF2e6uExA2DdpD"
+    },
+    {
+      "name": "Menace Under Otari",
+      "_id": "Csmh44PMavLOf9sE"
+    },
+    {
+      "name": "Effects",
+      "_id": "mG347dup0mI4pNjX"
+    },
+    {
+      "name": "Items",
+      "_id": "ghxENpEWIKeSnyNk"
+    },
+    {
+      "name": "Menace Under Otari",
+      "_id": "a5ZTQWdLqbJA5EJ7"
+    },
+    {
+      "name": "Ambience",
+      "_id": "fjkCb82nro7bqhAd"
+    },
+    {
+      "name": "Sound Effects",
+      "_id": "kxNkcruq6WY87Lzh"
+    },
+    {
+      "name": "Menace Under Otari",
+      "_id": "m7C21c2oeaa6k1lD"
+    },
+    {
+      "name": "Artwork Handouts",
+      "_id": "9bVLELKWqJf2IH1k"
+    },
+    {
+      "name": "First Level Locations",
+      "_id": "h8FdzwkLPu0rCB3R"
+    },
+    {
+      "name": "Otari",
+      "_id": "g4zlRrkaD4p2cG2y"
+    },
+    {
+      "name": "Otari Locations",
+      "_id": "XpLLyrEVGyxQ3GWc"
+    },
+    {
+      "name": "Second Level Locations",
+      "_id": "k4H378h4eQakTj66"
+    }
+  ],
+  "items": [
+    {
+      "name": "Elemental Aid",
+      "_id": "5GOQjPjCvdRjdLIu"
+    },
+    {
+      "name": "Elemental Aid",
+      "_id": "QhskhZjYTuD5IDfs"
+    },
+    {
+      "name": "Ocean's Might",
+      "_id": "XnvGgsstWwDeunij"
+    },
+    {
+      "name": "Saltwater Sickness",
+      "_id": "od9RY509l6WGFawA"
+    },
+    {
+      "name": "Belt of Good Health",
+      "_id": "qmvDB0W8RImX8t0g"
+    },
+    {
+      "name": "Healing Potion",
+      "_id": "LKjaRu3wDgEBpb9C"
+    },
+    {
+      "name": "Polished Shield",
+      "_id": "mE6QzyEJjwGK1CQd"
+    },
+    {
+      "name": "Scroll of 1st-level Spell",
+      "_id": "nQueQE0XtTmCiKjm"
+    },
+    {
+      "name": "Smoking Sword",
+      "_id": "ITzsTwP02Q1FbZ0O"
+    }
+  ],
+  "journal": [
+    {
+      "name": "Using Audio",
+      "_id": "Hd1ivZLqvtBLllSu"
+    },
+    {
+      "name": "Getting Started",
+      "_id": "S1UnJk4t55aRFaCs"
+    },
+    {
+      "name": "Basic Concepts",
+      "_id": "Vo4bKLdIhYczUUbi"
+    },
+    {
+      "name": "What's a Roleplaying Game?",
+      "_id": "vbf3n7v4X54Be9In"
+    },
+    {
+      "name": "Pregenerated Heroes",
+      "_id": "1C5eYWxhXjCgQUOc"
+    },
+    {
+      "name": "Alignments and Deities",
+      "_id": "ENyKNEGLOOT4GfO1"
+    },
+    {
+      "name": "Leveling Up",
+      "_id": "JL2af7XedJGFvfbc"
+    },
+    {
+      "name": "Creating Your Hero",
+      "_id": "KIpNnMtah73eyPC8"
+    },
+    {
+      "name": "Finishing your Hero",
+      "_id": "cEgjLwy74C6VTvgs"
+    },
+    {
+      "name": "Elf",
+      "_id": "8nd7XtPy3mlzQhmO"
+    },
+    {
+      "name": "Human",
+      "_id": "DuKNKcjEyYJgMfar"
+    },
+    {
+      "name": "Dwarf",
+      "_id": "bp7N1dPmqQFcYeJY"
+    },
+    {
+      "name": "Fighter",
+      "_id": "MQPBvSSywu4bLbyL"
+    },
+    {
+      "name": "Wizard",
+      "_id": "fwgmfQz1LPDE6feM"
+    },
+    {
+      "name": "Cleric",
+      "_id": "gngRTq56oFDwqWJk"
+    },
+    {
+      "name": "Rogue",
+      "_id": "pmFJX9jmX3hpOsXM"
+    },
+    {
+      "name": "Areas",
+      "_id": "0mydKPwGO2vjK2qz"
+    },
+    {
+      "name": "Currency and Expenses",
+      "_id": "3IOfAfmFsZJVD7J6"
+    },
+    {
+      "name": "Starting Equipment",
+      "_id": "7bMhPIyyl5QnZb4W"
+    },
+    {
+      "name": "Skills",
+      "_id": "ImGyOYVIN6WeuOT4"
+    },
+    {
+      "name": "Hit Points, Healing, and Dying",
+      "_id": "YtLflW4aY6KxtFWs"
+    },
+    {
+      "name": "Ability Scores",
+      "_id": "mrmEfL8tRhGltGJX"
+    },
+    {
+      "name": "Actions",
+      "_id": "o13AXSYcfydsrS1V"
+    },
+    {
+      "name": "Movement",
+      "_id": "qD5sw1wEN0D9EYRp"
+    },
+    {
+      "name": "Carrying and using Items",
+      "_id": "sFnjBfCH4q6L9ryB"
+    },
+    {
+      "name": "Encounters",
+      "_id": "5vvtOkNxnpzih0bO"
+    },
+    {
+      "name": "Downtime",
+      "_id": "lcwv9TcnSbbduf9H"
+    },
+    {
+      "name": "Exploration",
+      "_id": "qY6QLadnP9lykaxa"
+    },
+    {
+      "name": "Damage",
+      "_id": "BmyKEDSSROeZktZE"
+    },
+    {
+      "name": "Checks",
+      "_id": "IpshSeAFYWe1xNaU"
+    },
+    {
+      "name": "Attacks",
+      "_id": "k60WZPFTwRqW0cPg"
+    },
+    {
+      "name": "Being a Gamemaster",
+      "_id": "1KQ6rs5BfeNzaFrd"
+    },
+    {
+      "name": "Defuse Device",
+      "_id": "4rsUaJA7hF7A1Q9j"
+    },
+    {
+      "name": "Serpent's Coils",
+      "_id": "8AHfZiBiPBmPoWn4"
+    },
+    {
+      "name": "Sudden Charge",
+      "_id": "94A6XzdJcB80cvak"
+    },
+    {
+      "name": "Cleric Channeling",
+      "_id": "9GZAjPXf9NtdOdzk"
+    },
+    {
+      "name": "Ghostly Battle",
+      "_id": "NFnEh8AODQzkPGH4"
+    },
+    {
+      "name": "Shopping for Armour",
+      "_id": "NI5LNVjMMZSWrH4S"
+    },
+    {
+      "name": "Trapped Hallway",
+      "_id": "RpfctUn1Qh5Al3PL"
+    },
+    {
+      "name": "Blazing Desert",
+      "_id": "Xtu6aMLnRpjUxa5N"
+    },
+    {
+      "name": "Tending Wounds",
+      "_id": "YzXPzv1XdSzkFenC"
+    },
+    {
+      "name": "Viper Surprise",
+      "_id": "ZdRvQJ0Hhazl55Y6"
+    },
+    {
+      "name": "Desert Ruins",
+      "_id": "asKTXIJE47q3wC4P"
+    },
+    {
+      "name": "Dragon's Hoard",
+      "_id": "dbbLrfL1DubYFlWe"
+    },
+    {
+      "name": "Harpy Ambush",
+      "_id": "kzS1SIoWnSYi8qkT"
+    },
+    {
+      "name": "Troll Battle",
+      "_id": "lp7iMHFn3Iaa0ea0"
+    },
+    {
+      "name": "Pitfall Trap",
+      "_id": "oyexQHyPwLjP2Gge"
+    },
+    {
+      "name": "Spider Chase",
+      "_id": "qDUfbnEvEe1aJuWu"
+    },
+    {
+      "name": "Placing Bets",
+      "_id": "tcCKHclVTqsFnHOP"
+    },
+    {
+      "name": "Merisiel and Kyra",
+      "_id": "vS46GroRWs7Njf1P"
+    },
+    {
+      "name": "A Wizard's Solution",
+      "_id": "zju3ABHShhFifQmY"
+    },
+    {
+      "name": "Ezren the Merchant",
+      "_id": "zrRFWFRiJEU0Qtgj"
+    },
+    {
+      "name": "Locations",
+      "_id": "3xegtFMYdsao58lE"
+    },
+    {
+      "name": "Encounter Budget",
+      "_id": "4nsXBFKFLs3db33S"
+    },
+    {
+      "name": "Example DCs",
+      "_id": "KK8PMGKZe2sLnhCS"
+    },
+    {
+      "name": "Building Encounters",
+      "_id": "Mu6L6Ei4qHND6Kdn"
+    },
+    {
+      "name": "Weather",
+      "_id": "RfiFMieaKMI9mGw2"
+    },
+    {
+      "name": "Creatures",
+      "_id": "SMSdqNDuTRqYHYSJ"
+    },
+    {
+      "name": "Hazards",
+      "_id": "TyXs3Gk0DQMSGotS"
+    },
+    {
+      "name": "Difficulty Tables",
+      "_id": "Z2vfZwOvFFPkEPqA"
+    },
+    {
+      "name": "Running Encounters",
+      "_id": "lyhXl2P3eOJAGkNz"
+    },
+    {
+      "name": "Environments",
+      "_id": "oiCmDc80T3El2rDj"
+    },
+    {
+      "name": "Game Sessions",
+      "_id": "d6QRPibR8IU5wfKT"
+    },
+    {
+      "name": "Preparing an Adventure",
+      "_id": "k2bOm2AUnF7u547y"
+    },
+    {
+      "name": "Rules Disputes",
+      "_id": "tQfS1UR1DJoPN64T"
+    },
+    {
+      "name": "Introduction",
+      "_id": "67xrow8BHnKbKozv"
+    },
+    {
+      "name": "Pathfinder Society",
+      "_id": "x76hH0AqjPcVnEKQ"
+    },
+    {
+      "name": "Setting the Scene",
+      "_id": "zH5TMivFVhFux4qH"
+    },
+    {
+      "name": "Undead Hordes",
+      "_id": "8GXGtzEnKje4MwhS"
+    },
+    {
+      "name": "Fight in the Hatchery",
+      "_id": "LwifySTnWymqLUOh"
+    },
+    {
+      "name": "Gauntlight Keep",
+      "_id": "Nq87mShxwZVDcgns"
+    },
+    {
+      "name": "Tamily Has a Job For You",
+      "_id": "STNCfDV2B8XYQsmv"
+    },
+    {
+      "name": "Kobold Battle",
+      "_id": "k9Bc0uVi4qolXc7b"
+    },
+    {
+      "name": "Otari from the Water",
+      "_id": "zzv0Jt3vmwnXPX9x"
+    },
+    {
+      "name": "11: Kobolds and Traps",
+      "_id": "73RoOAzThOUOCmbg"
+    },
+    {
+      "name": "08: Trapped Hallway",
+      "_id": "DYbikk5Bq7NTl5vo"
+    },
+    {
+      "name": "05: Forgotten Crypt",
+      "_id": "SVdFYwhRpCvTwIwN"
+    },
+    {
+      "name": "10: Abadar’s Vault",
+      "_id": "TyMgkHbcaFJD27C7"
+    },
+    {
+      "name": "04: The Barricade",
+      "_id": "YAfr3rITEAgMznAS"
+    },
+    {
+      "name": "02: Drop into Darkness",
+      "_id": "d1dC4s6Cqck7BfyK"
+    },
+    {
+      "name": "01: Hungry Rats",
+      "_id": "dYY2HXUCuf523whn"
+    },
+    {
+      "name": "03: The Spider’s Web",
+      "_id": "eq57rfL83LUwwW6B"
+    },
+    {
+      "name": "09: Gold Puzzle",
+      "_id": "l4u0BkEqhLFD3PHW"
+    },
+    {
+      "name": "06: Forgotten Shrine",
+      "_id": "oRH7uSq7Na7kraEO"
+    },
+    {
+      "name": "07: Abandoned Storeroom",
+      "_id": "qV9wXKf17pbA7e61"
+    },
+    {
+      "name": "Otari Gazetteer",
+      "_id": "NNmKsnjJOZogP2fO"
+    },
+    {
+      "name": "Story Seeds",
+      "_id": "YcpHJHcOucjdXirP"
+    },
+    {
+      "name": "Menhemes Manor",
+      "_id": "32FDd61iWY3rJwO4"
+    },
+    {
+      "name": "Crow's Casks",
+      "_id": "BKh019SpVI0dAmod"
+    },
+    {
+      "name": "Odd Stories",
+      "_id": "ElbuiMpQ9bq9T2jl"
+    },
+    {
+      "name": "The Rowdy Rockfish",
+      "_id": "Gi0fi6mtPu9vdrWM"
+    },
+    {
+      "name": "Blades for Glades",
+      "_id": "OymTOgXR3ZkbDhko"
+    },
+    {
+      "name": "Otari Graveyard",
+      "_id": "P9ik2C2kVHQ3MPd2"
+    },
+    {
+      "name": "Wrin's Wonders",
+      "_id": "RO1O68Keew4zk199"
+    },
+    {
+      "name": "Otari Market",
+      "_id": "UzizjBG6IxHNG0Yl"
+    },
+    {
+      "name": "The Loading Flume",
+      "_id": "Vsf2B0lbQLYCx6s3"
+    },
+    {
+      "name": "Otari Hinterlands",
+      "_id": "W4nwvs9LDkHsaXEU"
+    },
+    {
+      "name": "Otari Fishery",
+      "_id": "f1HTHkFXB6oa1xcS"
+    },
+    {
+      "name": "Stone Ring Pond",
+      "_id": "foxRNuWdpCKCa6Ny"
+    },
+    {
+      "name": "The Giant's Wheel",
+      "_id": "fwd9NeqaYqVpBFTw"
+    },
+    {
+      "name": "Gauntlight Keep",
+      "_id": "hg5qmDSI21LpMTN2"
+    },
+    {
+      "name": "Dawnflower Library",
+      "_id": "if326ZRCeI3C3alq"
+    },
+    {
+      "name": "Gallentine Deliveries",
+      "_id": "kNs5TTmAb3ipnVAC"
+    },
+    {
+      "name": "Ruins of the Thirsty Alpaca",
+      "_id": "vM0T4uMBUrQzn1Ld"
+    },
+    {
+      "name": "Crook's Nook",
+      "_id": "vaHqR8tfA1dKqwXN"
+    },
+    {
+      "name": "Otari Garrison",
+      "_id": "yL7mnrZrOjsfXEZq"
+    },
+    {
+      "name": "13: Soggy Crossroads",
+      "_id": "2oEFOghm5iYXKy2r"
+    },
+    {
+      "name": "17: Kobold Warren",
+      "_id": "4re1eriShy04xSlB"
+    },
+    {
+      "name": "18: Dragonkeeper",
+      "_id": "GKdbwEIYol943tBz"
+    },
+    {
+      "name": "16: Mermaid Fountain",
+      "_id": "H7G0kGC4VF0JJ4SO"
+    },
+    {
+      "name": "15: Xulgath Cave",
+      "_id": "IUExNAepG68GUUhS"
+    },
+    {
+      "name": "14: Elements of Chaos",
+      "_id": "X3d3lzoGP2TbWjpV"
+    },
+    {
+      "name": "12: Kobold Lookouts",
+      "_id": "YrtJLob1PBfZmlww"
+    },
+    {
+      "name": "19: Mushroom Grotto",
+      "_id": "f4U9FH1iaDGUZjvu"
+    }
+  ],
+  "macros": [
+    {
+      "name": "Quick Reference: Encounters",
+      "_id": "MppBkkOiWyW1z6fW"
+    },
+    {
+      "name": "Quick Reference: DCs",
+      "_id": "x0YlgNBucXkYT6RG"
+    },
+    {
+      "name": "Area 15 - Freshly Dug Tunnel",
+      "_id": "NAxPG4cHu4dKrx6h"
+    },
+    {
+      "name": "Area 14- Cinder Rat",
+      "_id": "iPvtf4ZGr6qX8OnF"
+    },
+    {
+      "name": "Area 12 - Barricade",
+      "_id": "pb7k8V9m7cFioy6B"
+    },
+    {
+      "name": "Area 04 - Barricade",
+      "_id": "saQTdI63wy22v5yk"
+    }
+  ],
+  "playlists": [
+    {
+      "name": "Exploration Loops",
+      "description": "A series of looping ambience for exploring the first floor.",
+      "sounds": [
+        {
+          "name": "Crypt Drone Loop",
+          "_id": "u4mNGCTn8cPE8X9k"
+        },
+        {
+          "name": "The Occasional Rat",
+          "_id": "0N9AZX11G0RYUoZn"
+        },
+        {
+          "name": "The Occasional Drip",
+          "_id": "Vl3tC8KlZmkUvR12"
+        }
+      ],
+      "_id": "k0fOCWD3DBgSoHoZ"
+    },
+    {
+      "name": "Floor 1 Exploration Ambience",
+      "description": "Pre-mixed individual tracks for exploration",
+      "sounds": [
+        {
+          "name": "Deeds Done In Darkness",
+          "description": "Soft, periodic instrumentation to evoke a feeling of sneaking through dangerous territory",
+          "_id": "9VjwgeXsiou9mZ5A"
+        }
+      ],
+      "_id": "heHyhtPMGRCqJ2HL"
+    },
+    {
+      "name": "Floor 2 Exploration Ambience",
+      "sounds": [
+        {
+          "name": "Drones In The Deep",
+          "description": "Deep, resonant harmonics and faint instrumentation.",
+          "_id": "V2FUEfrTq9fvKoks"
+        }
+      ],
+      "_id": "ixYF8x5F4rA6adgo"
+    },
+    {
+      "name": "Floor 2 Mermaid Fountain",
+      "description": "It's just a fountain, nothing to worry about.",
+      "sounds": [
+        {
+          "name": "The Mermaid Fountain Basin Loop",
+          "_id": "BIt6uRTjcmXfS2Ao"
+        },
+        {
+          "name": "The Mermaid Fountain Loop",
+          "_id": "GNLKIThBSqgQ4tiQ"
+        },
+        {
+          "name": "Crypt Drone Loop",
+          "_id": "mthYcYI76UvFT9xu"
+        }
+      ],
+      "_id": "0qdreI9KgZ0kYMki"
+    },
+    {
+      "name": "Floor 2 Soggy Crossroads",
+      "description": "A mix of ambience to cover the soggy crossroads region of Floor 2.",
+      "sounds": [
+        {
+          "name": "Watery Grave",
+          "_id": "H7FMzZQcKgZ9XMNQ"
+        },
+        {
+          "name": "Deeds Done In Darkness",
+          "_id": "ausstO0la5GfICWh"
+        }
+      ],
+      "_id": "2oJDF1thojiM9tWg"
+    },
+    {
+      "name": "Otari Fishery",
+      "description": "An indoor locale filled with a bustling crowd of drinking gamblers and fisherfolk.",
+      "sounds": [
+        {
+          "name": "Otari Fishery",
+          "_id": "NA4DUa5JCH6VcnT1"
+        }
+      ],
+      "_id": "vb7AB47i1FnbnC6M"
+    },
+    {
+      "name": "Otari Wharf",
+      "description": "The sounds of a seaside town.",
+      "sounds": [
+        {
+          "name": "Otari Seaside",
+          "_id": "lZH9AhDY6fnhXyvN"
+        }
+      ],
+      "_id": "nGTMCWOpjxgn3t3Q"
+    },
+    {
+      "name": "Soundboard Loops",
+      "description": "A collection of repeating loops to be played individually to augment other playlists.",
+      "sounds": [
+        {
+          "name": "Zolgran Plotting",
+          "_id": "opUA06LhpkTvpRxh"
+        },
+        {
+          "name": "Muffled Chattering",
+          "_id": "acWIaATXvrV6TCYy"
+        },
+        {
+          "name": "The Occasional Rat",
+          "_id": "QriUBXBjXsweSC7V"
+        },
+        {
+          "name": "The Occasional Drip",
+          "_id": "PyjVLpEv1lNSiKDW"
+        },
+        {
+          "name": "The Malevolent Dead",
+          "_id": "upp10gFshBm3o4ts"
+        },
+        {
+          "name": "Watery Grave",
+          "_id": "4ob2ON43zN1naNWt"
+        },
+        {
+          "name": "Irritated Xulgath Noises",
+          "_id": "GgsDSD88cVftbskJ"
+        },
+        {
+          "name": "Everything Is Fire",
+          "_id": "jMVdTW8tkIMG5B13"
+        }
+      ],
+      "_id": "J9UqsCkkPfzAA9Z1"
+    },
+    {
+      "name": "Barricades",
+      "description": "A pair of sounds for tearing down the barricades",
+      "sounds": [
+        {
+          "name": "Disassembling Barricade",
+          "_id": "BCLNoSQ51JmvXtWK"
+        },
+        {
+          "name": "Shattering Barricade",
+          "_id": "50s0sXyj8TlX8kWq"
+        },
+        {
+          "name": "Breaking The Stone Wall",
+          "description": "The conspicuous sound of a stone wall collapsing.",
+          "_id": "CI5aakOLeJDMGC6O"
+        }
+      ],
+      "_id": "QN6rFt1K6zlkbI9I"
+    },
+    {
+      "name": "Dragon Soundboard",
+      "description": "Sounds used for the encounter with the Green Dragon Wyrmling",
+      "sounds": [
+        {
+          "name": "Wyrmling Growl Distant 01",
+          "_id": "Fypler5gP0OSsaNq"
+        },
+        {
+          "name": "Wyrmling Growl Distant 02",
+          "_id": "c1ojE05zDYW6USJ9"
+        },
+        {
+          "name": "Wyrmling Growl Distant 03",
+          "_id": "aKEtxp16gwkEivJD"
+        },
+        {
+          "name": "Wyrmling Growl 1",
+          "_id": "drrfdsrUloVdYc8z"
+        },
+        {
+          "name": "Wyrmling Growl 2",
+          "_id": "UjuQEGu3XVpwwEDX"
+        },
+        {
+          "name": "Wyrmling Growl 3",
+          "_id": "fNcnJzuGZmdBCqvI"
+        },
+        {
+          "name": "Wyrmling Growl 4",
+          "_id": "kR54fjwuX3wSiqPa"
+        },
+        {
+          "name": "Wyrmling Breath Weapon 01",
+          "_id": "PzgI66NU5R06KRZE"
+        },
+        {
+          "name": "Wyrmling Breath Weapon 02",
+          "_id": "UPzWJjlE63aWc6r0"
+        },
+        {
+          "name": "Wyrmling Breath Weapon 03",
+          "_id": "Qyyc1uUaFdS3jDvM"
+        }
+      ],
+      "_id": "VS8FZvbRBnqt7Wid"
+    },
+    {
+      "name": "The Cinder Rat",
+      "sounds": [
+        {
+          "name": "The Rat's On Fire",
+          "description": "It almost sounds as if a rat just exploded out of a glass orb full of fire.",
+          "_id": "cZS3HUei09Gxk0dv"
+        }
+      ],
+      "_id": "PtzmQZ2WjuUK8XUF"
+    }
+  ],
+  "scenes": [
+    {
+      "name": "Floor 1",
+      "tokens": [
+        {
+          "name": "Abandoned Storeroom",
+          "_id": "BIHGtkVJ4FdKyp40"
+        },
+        {
+          "name": "Abadar's Vault",
+          "_id": "B2Y0j0FZWTkfGZOH"
+        },
+        {
+          "name": "Spider's Lair",
+          "_id": "u9ztfPgL1lBo9AYB"
+        },
+        {
+          "name": "Forgotten Crypt",
+          "_id": "5GtxlMiBSYS4vzsS"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "VEwonow5Q1EuV6iO"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "E4g6wAinjqDCdnmf"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "YQ9bkhpGcHCi2Vcp"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "xjg4fF9Dd63GRCgE"
+        },
+        {
+          "name": "Giant Spider",
+          "_id": "aAOT0yvh6F9MFYXI"
+        },
+        {
+          "name": "Zombie Shambler",
+          "_id": "1WttuBBvasVty5v9"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "DdRWs2obb9faHxfK"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "jsbzTb9ja3ppmtpm"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "ADjDqvL6Xp4OG0sH"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "Tl199ptDdOi2NWOW"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "JX1kKHnfrIoPAf58"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "e58xLpza1Av5PRjL"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "OMzgMtK2YpLRJa5z"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "erpYBjauN9Y0IWaK"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "TIhgE2TCWINvVRhE"
+        },
+        {
+          "name": "Kobold Trapmaster",
+          "_id": "CR6liS4eq4k9Xfq5"
+        },
+        {
+          "name": "Falling Ceiling",
+          "_id": "WsD0zhdyvvjwr5iB"
+        },
+        {
+          "name": "Central Spears",
+          "_id": "QF081ePBV34OOqdL"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "51pC4bBzgplDhXNc"
+        }
+      ],
+      "_id": "JJJCFUCadDPRwnSX"
+    },
+    {
+      "name": "Floor 1 (Original)",
+      "tokens": [
+        {
+          "name": "Kobold Warrior",
+          "_id": "BAzzRnZOrGHOkEy4"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "hLzFWrRnZuA2RNgi"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "Fs7zJYLdnSArbWqb"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "KBCbDQJF2FzmMlZk"
+        },
+        {
+          "name": "Abandoned Storeroom",
+          "_id": "qsCI0BelJ5H4ElQ3"
+        },
+        {
+          "name": "Abadar's Vault",
+          "_id": "QBfiY7YZxT7RPKhl"
+        },
+        {
+          "name": "Kobold Trapmaster",
+          "_id": "8Wkmm9o99nMY5hTj"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "8h5WGDQ0CVfGoEuJ"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "MzGDht1Ss22nz79W"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "Z2xJPUo559Ik7bc7"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "1YbGtHCzcSk8Kvvd"
+        },
+        {
+          "name": "Giant Rat",
+          "_id": "vUyi3R1VoVbLEMWO"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "KCSbcA6Mt3PLBcAj"
+        },
+        {
+          "name": "Zombie Shambler",
+          "_id": "V2k0AlnKnMHMj7jV"
+        },
+        {
+          "name": "Giant Spider",
+          "_id": "E3hG82U0M5lQgQJF"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "NP8H2dDEnFWS02pm"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "klqS0YFZcgEc6DBo"
+        },
+        {
+          "name": "Spider's Lair",
+          "_id": "u04tay9f86tBwVVz"
+        },
+        {
+          "name": "Forgotten Crypt",
+          "_id": "AQSNlvkhj85BYX2B"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "O6KrCJgG57KElscj"
+        },
+        {
+          "name": "Falling Ceiling",
+          "_id": "BDzVgUSCY2nL99G4"
+        },
+        {
+          "name": "Central Spears",
+          "_id": "hxW21hSouWSHX4dj"
+        },
+        {
+          "name": "Skeleton Guard",
+          "_id": "6xHCgG886wqzNO5a"
+        }
+      ],
+      "_id": "GN8rnmtLqwFIqZ7F"
+    },
+    {
+      "name": "Floor 2",
+      "tokens": [
+        {
+          "name": "Kobold Scout",
+          "_id": "N9hAkweKI17JWS4y"
+        },
+        {
+          "name": "Kobold Scout",
+          "_id": "jHsyoypX0rZ8Z6j2"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "9xXKLwkGsayE3dWh"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "JgcWwcnY1xBaZ6GC"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "rWfTGstFCXvBw1k6"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "TzBwORSHUT6SB3VC"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "pWXYYYgOVR4f861j"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "1QHdl9zLfaGgGWaO"
+        },
+        {
+          "name": "Zolgran",
+          "_id": "hrjWFzTtX7YgQYYV"
+        },
+        {
+          "name": "Kobold Scout",
+          "_id": "QEfN0cq3bquThzxg"
+        },
+        {
+          "name": "Kobold Scout",
+          "_id": "UdSUcaP1g08z3DWU"
+        },
+        {
+          "name": "Green Dragon Wyrmling",
+          "_id": "NYX5Q6LcmFxZy2Bm"
+        },
+        {
+          "name": "Cinder Rat",
+          "_id": "dF9vBe7Wlh09uvhm"
+        },
+        {
+          "name": "Xulgath Warrior",
+          "_id": "dA6sCIlIEoySk5b7"
+        },
+        {
+          "name": "Xulgath Warrior",
+          "_id": "qFGO5bOYIsjtrCXc"
+        },
+        {
+          "name": "Xulgath Warrior",
+          "_id": "lWAsVULTMIaKAH3e"
+        },
+        {
+          "name": "Kobold Loot",
+          "_id": "LFsG0Q1NzlY650mx"
+        },
+        {
+          "name": "Zolgran's Treasure",
+          "_id": "EoRoqLivzLfFV4FU"
+        },
+        {
+          "name": "Dragon's Lair",
+          "_id": "YRrCV4kQAKSPfNVk"
+        },
+        {
+          "name": "Mermaid Fountain",
+          "_id": "VA30Zz9aS3JjU5Ih"
+        }
+      ],
+      "_id": "cgv9iVmx3dNIL3YA"
+    },
+    {
+      "name": "Floor 2 (Original)",
+      "tokens": [
+        {
+          "name": "Kobold Scout",
+          "_id": "89SEuVIY27ed4QQn"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "i8WA0WaEd9dL06HS"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "DrNGIkjz669AY6uG"
+        },
+        {
+          "name": "Zolgran",
+          "_id": "VfTOBuQnd4RjGTQw"
+        },
+        {
+          "name": "Kobold Scout",
+          "_id": "0mKkeEWUTWmNQC5A"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "wLLPO1UybwSxPg21"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "55L8PXBtgRr8TkYv"
+        },
+        {
+          "name": "Zolgran's Treasure",
+          "_id": "9gkwXd10AweOZ4sa"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "fnw5zSQASBH8qD1Y"
+        },
+        {
+          "name": "Kobold Warrior",
+          "_id": "AOHD4BVSCpFCJQDs"
+        },
+        {
+          "name": "Kobold Loot",
+          "_id": "unilFxLqyELGbVoN"
+        },
+        {
+          "name": "Kobold Scout",
+          "_id": "GJy0HOFrlfvja4jo"
+        },
+        {
+          "name": "Kobold Scout",
+          "_id": "oWKwsZoYQHhPFSLm"
+        },
+        {
+          "name": "Green Dragon Wyrmling",
+          "_id": "HAtsUscpX89ZWnNt"
+        },
+        {
+          "name": "Xulgath Warrior",
+          "_id": "JlZApChrinDSH30s"
+        },
+        {
+          "name": "Xulgath Warrior",
+          "_id": "kYszMgP5QkKQ0jRE"
+        },
+        {
+          "name": "Dragon's Lair",
+          "_id": "rsAx2OmmDcDUU2vS"
+        },
+        {
+          "name": "Cinder Rat",
+          "_id": "0S2rgFxFquPY2YIl"
+        },
+        {
+          "name": "Mermaid Fountain",
+          "_id": "B4K5yX1j1Sv2svdd"
+        },
+        {
+          "name": "Xulgath Warrior",
+          "_id": "uwm6vHdcA7bqJfWL"
+        }
+      ],
+      "_id": "kiSlv7vcx4HrVCmd"
+    },
+    {
+      "name": "Landing",
+      "_id": "U5t0Mq8glKBXO3qH"
+    },
+    {
+      "name": "Otari",
+      "notes": [
+        {
+          "text": "The Giant's Wheel",
+          "_id": "ZtAOQCFGUae9YCNG"
+        },
+        {
+          "text": "Loading Flume",
+          "_id": "K6nUEAUaLYMy78mT"
+        },
+        {
+          "text": "Stone Ring Pond",
+          "_id": "9QgSoypU8XffW5Gf"
+        },
+        {
+          "text": "Wrin's Wonders",
+          "_id": "W1uRlrzVgLL7LPdL"
+        },
+        {
+          "text": "Gallentine Deliveries",
+          "_id": "XqoWTAvdNCSerYRn"
+        },
+        {
+          "text": "Blades for Glades",
+          "_id": "alrwkNAWgVPaybuN"
+        },
+        {
+          "text": "Odd Stories",
+          "_id": "8C4nikKXDeeja3YF"
+        },
+        {
+          "text": "Otari Garrison",
+          "_id": "uTExONAX8rU43UFA"
+        },
+        {
+          "text": "Crow's Casks",
+          "_id": "HO02Agum5zanu3sN"
+        },
+        {
+          "text": "Crook's Nook",
+          "_id": "RyMDC4wBxfGomT64"
+        },
+        {
+          "text": "Otari Market",
+          "_id": "vATYUNfoJaY3citl"
+        },
+        {
+          "text": "Otari Fishery",
+          "_id": "OMYAyfWmLUXLVxB1"
+        },
+        {
+          "text": "Ruins of the Thirsty Alpaca",
+          "_id": "WVyjFGMT1owFvvKJ"
+        },
+        {
+          "text": "The Rowdy Rockfish",
+          "_id": "BPfmRwa1L3S7AFby"
+        },
+        {
+          "text": "Dawnflower Library",
+          "_id": "ALuDLrNLOp9I97wC"
+        },
+        {
+          "text": "Otari Graveyard",
+          "_id": "n1ttMakltOjhh6P3"
+        }
+      ],
+      "_id": "c7E7PXzgT5RBkT7S"
+    }
+  ],
+  "_id": "5QXyvFAkXMfGuqT3"
+}
